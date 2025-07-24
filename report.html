@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Submit Complaint</title>
+  <link rel="stylesheet" href="report.css">
+</head>
+<body>
+  <header>
+    <h1>Submit Your Complaint</h1>
+    <nav>
+      <a href="index.html">Home</a>
+    </nav>
+  </header>
+
+  <form action="index.php" method="post">
+
+  
+      <div class="complaint-form">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required/>
+
+      <label for="mobno">Mobile No:</label>
+      <input type="number" name="mobno" id="mobno"><br>
+
+      <label for="email">Email ID</label>
+      <input type="email" id="email" name="email" required/>
+
+      <label for="department">Department</label>
+      <input type="text" id="department" name="department" required/>
+
+      <label for="complaint">Your Complaint</label>
+      <textarea id="complaint" name="complaint" rows="6" required></textarea>
+
+      <button type="submit">Submit</button>
+
+</div>
+  </form>
+
+  <footer>
+    <p>&copy S.V.polytectnic college bhopal (M.P.)</p>
+  </footer>
+</body>
+</html>
